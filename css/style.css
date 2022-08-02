@@ -324,7 +324,28 @@ span {
     top: 0;
 }
 
+.location .box-container {
+    overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+}
 
+.location .box-container iframe {
+    left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+}
+
+.location h3 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+        color: #333;
+}
 
 .footer {
     background: #000;
