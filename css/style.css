@@ -221,6 +221,10 @@ span {
     transform: translateY(100%);
 }
 
+.menu {
+    display: none;
+}
+
 .menu .box-container {
     display: flex;
     flex-wrap: wrap;
